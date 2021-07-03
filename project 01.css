@@ -1,0 +1,94 @@
+* {box-sizing: border-box;}
+
+body{
+	background-color: ghostwhite;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.Header{
+	background-color: #171717;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.Header a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: ghostwhite;
+	font-size: 15px;
+	border-radius: 15px;
+	padding: 8px;
+	float: left;
+}
+
+.Header a.logo{
+	font-family: Airbus Special;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	padding-left: 50px;
+}
+
+.Header a:hover{
+	color: lightcoral;
+}
+
+.Header-right{
+	float: right;
+	padding-right: 50px;
+	padding-top: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.Header-right a:hover{
+	color: black;
+	background-color: ghostwhite;
+}
+
+@media screen and (max width: 500px){
+	.Header a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.Header-right{
+		float: none;
+	}
+	.footer{
+		float: none;
+	}
+}
+
+.hero-image img{
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  float: right;
+  padding-top: 60px;
+  padding-right: 80px;
+  padding-bottom: 100px;
+}
+
+.main-body{
+	padding: 30px;
+}
+
+.main-body h1{
+	border-color: red;
+	width: 50%;
+	padding: 50px 50px;
+}
+
+.main-body p{
+	text-align: justify;
+	padding: 10px 50px 100px 50px;
+}
+
+.footer{
+	padding: 50px;
+   	width: 100%;
+   	background-color: #171717;
+   	color: white;
+}
